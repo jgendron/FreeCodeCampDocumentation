@@ -67,7 +67,7 @@ Try looking at the secondLetterOfFirstName variable declaration if you get stuck
 #8 Waypoint: Use Bracket Notation to Find the Last Character in a String
 In order to get the last letter of a string, you can subtract one from the string's length.
 
-For example, if var firstName = "Charles", you can get the value of the last letter of the string by using 'firstName[firstName.length - 1]'.
+For example, if var firstName = "Charles", you can get the value of the last letter of the string by using `firstName[firstName.length - 1]`.
 
 Use bracket notation to find the last character in the lastName variable.
 
@@ -76,7 +76,7 @@ Try looking at the lastLetterOfFirstName variable declaration if you get stuck.
 #9 Waypoint: Use Bracket Notation to Find the NthtoLast Character in a String
 In order to get the last letter of a string, you can subtract one from the string's length.
 
-For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using 'firstName[firstName.length - 3]'.
+For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using `firstName[firstName.length - 3]`.
 
 Use bracket notation to find the second-to-last character in the lastName string.
 
@@ -85,20 +85,20 @@ Try looking at the lastLetterOfLastName variable declaration if you get stuck.
 #10 Waypoint: Add Two Numbers with JavaScript
 Let's try to add two numbers using JavaScript.
 
-JavaScript uses the '+' symbol for addition.
+JavaScript uses the `+` symbol for addition.
 
 Replace the 0 with the correct number so you can get the result mentioned in the comment.
 
 #11 Waypoint: Subtract One Number from Another with JavaScript
 We can also subtract one number from another.
 
-JavaScript uses use the '-' symbol for subtraction.
+JavaScript uses use the `-` symbol for subtraction.
 
 Replace the 0 with the correct number so you can get the result mentioned in the comment.
 
 #12 Waypoint: Multiply Two Numbers with JavaScript
 We can also multiply one number by another.
 
-JavaScript uses use the '*' symbol for multiplication.
+JavaScript uses use the `*` symbol for multiplication.
 
 Replace the 0 with the correct number so you can get the result mentioned in the comment.
