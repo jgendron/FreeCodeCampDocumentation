@@ -1,5 +1,4 @@
-#1
-Waypoint: Comment your JavaScript Code
+#1 Waypoint: Comment your JavaScript Code
 Comments are lines of code that your computer will intentionally ignore. Comments are a great way to leave notes to yourself and to other people who will later need to figure out what it does.
 
 Let's take a look at the two ways you can write comments in JavaScript.
