@@ -203,3 +203,100 @@ We can "call" our function like this: `functionName();`, and it will run and ret
 Create and call a function called myFunction that returns the sum of a and b.
 
 Take the myArray array and shift() the first value off of it.
+
+#25 Waypoint: Build JavaScript Objects
+You may have heard the term object before.
+
+Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.
+
+Here's a sample object:
+
+```
+var cat = {
+
+ "name": "Whiskers",
+
+ "legs": 4,
+
+ "tails": 1,
+
+ "enemies": ["Water", "Dogs"]
+
+};
+```
+
+Objects are useful for storing data in a structured way, and can represents real world objects, like a cats.
+
+Let's try to make an Object that represents a dog called myDog!
+
+#26 Waypoint: Manipulate JavaScript Objects
+There are many ways to add and remove properties from objects.
+
+For example, we can add properties to objects like this:
+
+`myObject.myProperty = "myValue";`
+
+We can also delete them like this:
+
+`delete myObject.myProperty;`
+
+Let's add the property "bark", and delete the property "tails".
+
+#27 Waypoint: Iterate with JavaScript For Loops
+You can run the same code multiple times by using a loop.
+
+The most common type of JavaScript loop is called a "for loop" because it runs "for" a specific number of times.
+
+```
+var ourArray = [];
+
+for(var i = 0; i < 5; i++) {
+
+  ourArray.push(i);
+
+}
+```
+ourArray will now contain [0,1,2,3,4]
+
+#28 Waypoint: Iterate with JavaScript While Loops
+You can run the same code multiple times by using a loop.
+
+Another type of JavaScript loop is called a "while loop", because it runs "while" something is true and stops once that something is no longer true.
+
+```
+var ourArray = [];
+
+var i = 0;
+
+while(i < 5) {
+
+  ourArray.push(i);
+
+  i++;
+
+}
+```
+Let's try getting a while loop to work by pushing values to an array.
+
+#29 Waypoint: Generate Random Fractions with JavaScript
+Random numbers are useful for creating random behavior.
+
+JavaScript has a `Math.random()` function that generates a random decimal number.
+
+Use `Math.random()` to get myFunction to return a random number.
+
+#30 Waypoint: Generate Random Whole Numbers with JavaScript
+It's great that we can create random decimal numbers, but it's even more useful if we use it to generate a random whole number.
+
+To achieve this we can multiply the random number by ten and use the Math.floor() to convert the decimal number to a whole number.
+
+This technique gives us a whole number between zero and nine.
+
+Example:
+
+`Math.floor(Math.random()*10);`
+
+Let's give this technique a go now.
+
+#31 
+
